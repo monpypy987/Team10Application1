@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bas.team10application">
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ProjectActivity" />
+        <activity android:name=".MenuReportActivity" />
+        <activity android:name=".Report_TestcaseActivity" />
+        <activity android:name=".Report_SeverityActivity" />
+        <activity android:name=".Report_PriorityActivity" />
+        <activity android:name=".Report_TestSummaryActivity" />
+        <activity android:name=".Report_DefectTypeActivity" />
+        <activity android:name=".Report_Testcase_GraphActivity" />
+        <activity android:name=".Report_Severity_GraphActivity" />
+        <activity android:name=".Report_Priority_GraphActivity" />
+        <activity android:name=".Report_TestSummary_GraphActivity" />
+        <activity android:name=".Report_DefectType_GraphActivity"></activity>
+    </application>
+
+</manifest>

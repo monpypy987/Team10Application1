@@ -52,6 +52,7 @@ public class Report_Testcase_GraphActivity extends AppCompatActivity {
                 BarchartDF = (BarChart) findViewById(R.id.BarchartDF);
                 final ArrayList<BarEntry> entries = new ArrayList<>();
 
+
 //                entries.add(new BarEntry(1, 0.5f));
 //                entries.add(new BarEntry(2, 0.5f));
 //                entries.add(new BarEntry(3, 0.5f));
